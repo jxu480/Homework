@@ -2,7 +2,7 @@
 ## Hello World
 It is quite sunny today.
 
-##Somehow, this will turn out.
+Somehow, this will turn out.
 
 # Lvl 1
 ## Lvl 2
@@ -17,3 +17,4 @@ It is quite sunny today.
 `Code backticks`
 
 [Hyperlink(https://github.com/iankorf/MCB185-legacy/tree/main/unit0_tools_of_the_trade)]
+ありがとうございました。
