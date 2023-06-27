@@ -7,8 +7,6 @@ It is quite sunny today.
 # Lvl 1
 ## Lvl 2
 ### Lvl 3
--Minus sign
-=Equal sign
 
 - These
 + Are
