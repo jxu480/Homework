@@ -21,11 +21,11 @@ Minus sign after
 
 **This is bold**
 
-*Emphasis*
+*This has emphasis*
 
-`Code backticks`
+`These are code backticks`
 
-[Hyperlink(https://github.com/iankorf/MCB185-legacy/tree/main/unit0_tools_of_the_trade)]
+[Here is a hyperlink(https://github.com/iankorf/MCB185-legacy/tree/main/unit0_tools_of_the_trade)]
 
 [This is a link](https://mail.google.com/mail/u/0/?zx=hl7hzo3yj6kg#inbox)
 
