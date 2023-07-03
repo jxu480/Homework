@@ -7,6 +7,17 @@
 
 # Hint: if you get stuck for more than 10 minutes, get help
 
+a = 'ACDEFGHIKLMNPQRSTVWY'
+t = 0
+
+for i in range(len(a)):
+	b = a[i+1:]
+	for j in range(len(b)):
+		print(a[i],b[j])
+		t += 1
+		
+print(t)
+
 
 """
 python3 28aapairs.py
