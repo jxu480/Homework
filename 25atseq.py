@@ -21,7 +21,7 @@ for i in range(30):
 	else:
 		nts += random.choice('GC')
 
-print(len(nts), num / len(nts), nts)
+print(len(nts), num/len(nts), nts)
 
 
 """
