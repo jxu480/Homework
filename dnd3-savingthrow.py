@@ -44,7 +44,7 @@ for threshold in range(5, 16, 5):
 			
 	
 	print(threshold, f'{norm/trials:.3f}', f'{adv/trials:.3f}', f'{dis/trials:.3f}')
-		
+	
 
 """
 python3 dnd3-savingthrow.py

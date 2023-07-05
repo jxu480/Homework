@@ -14,6 +14,7 @@ for i in range(len(dna)):
 	f = i % 3
 	print(i, f, dna[i])
 
+
 """
 python3 27frame.py
 0 0 A

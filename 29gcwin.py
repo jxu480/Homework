@@ -24,7 +24,7 @@ for i in range(len(seq)):
 			cg += 1
 			
 	print(i, win, f'{cg / w:.4f}')
-			
+
 
 """
 python3 29gcwin.py

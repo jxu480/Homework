@@ -27,7 +27,7 @@ for threshold in range(1, 21):
 			r +=1
 	
 	print(threshold, f'{r/trials:.4f}', f'{c/trials:.4f}')
-		
+
 
 """
 python3 dnd5-fire.py
