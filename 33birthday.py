@@ -10,23 +10,40 @@
 # Variation: try making the calendar a list
 # Variation: try making the birthdays a list
 
-import sys
+# make the problem smaller (4 people, 20 days)
+
+import random
 import math
 
 list = []
 
-for val in sys.argv[1:]:
-	list.append(int(val))
+# make a list of the calendar
+# enter the birthdays of everyone
+# 4 people, 20 days
+
+days = 365
+people = 23
+trials = 100000
+success = 0
+
+for a in range(trials):
+	calendar = [0] * days
+	same = 0
 	
-days = list[0]
-people = list[1]
+	for i in range(people):
+		birthday = random.randint(0, days-1)
+	
+		calendar[birthday] += 1
 
-a = math.factorial(days)/math.factorial(days - people)
-b = days ** people
+	for j in range(len(calendar)):
+		if calendar[j] > 1:
+			same += 1
+		
+	if same > 0:
+		success += 1
 
-prob = a/b
+print(success / trials)
 
-print(f'{1-prob:.3f}')
 
 """
 python3 33birthday.py 365 23

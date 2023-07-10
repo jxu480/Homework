@@ -14,7 +14,29 @@
 
 # Note: you will not get exactly the same results as the command line below
 
+# how many read, how long they are, how big
+
 import sys
+import random
+import statistics
+
+gensize = int(sys.argv[1])
+readnum = int(sys.argv[2])
+readlen = int(sys.argv[3])
+
+genome = [0] * gensize
+
+for i in range(readnum):
+	index = random.randint(0, gensize - readlen)
+	
+	for j in range(readlen):
+		genome[index +j] += 1
+		
+
+print(genome)
+print(min(genome[readlen:-readlen]))
+print(max(genome[readlen:-readlen]))
+print(statistics.mean(genome[readlen:-readlen]))
 
 
 """
